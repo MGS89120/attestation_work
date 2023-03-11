@@ -69,6 +69,35 @@ main {
     margin-bottom: 1px;
 }
 
+#ind_2 {
+    width: 100%;
+    max-width: 2560px;
+}
+
+#img_1 {
+    position: relative;
+    float: right;
+    width: 50%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+#paragraph_1 {
+    font-size: 24px;
+}
+
+#paragraph_2 {
+    font-size: 18px;
+}
+
+.back {
+    
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    list-style: none;
+}
+
 h1 {
     text-align: center;
 }
@@ -154,6 +183,22 @@ color: black;
     transition: all 0.7s ease;
 }
 
+@keyframes myAnim {
+    from {
+        margin-left: 30%;
+    }
+    to {
+        margin-left: 70%;
+    }
+}
+
+
+
+#title_1 {
+    width: 30vw;
+    color: #3F3F3F;
+    animation: myAnim 10s linear alternate infinite;
+}
 
 @media screen and (max-width: 1000px) {
     nav ul {
@@ -195,6 +240,7 @@ color: black;
         height: 80px;
         height: 80px;
     }
+
 }
 
 @media screen and (max-width: 480px) {
